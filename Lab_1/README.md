@@ -98,3 +98,18 @@ $$
 $$Z^* = 10$$
 
 ---
+
+## Структура проекта
+
+- `lp_universal_simplex_verbose.py` — универсальный решатель ЗЛП (двухфазный симплекс)
+- `input_variant.txt` — файл с постановкой задачи
+- `proverka.xlsx` — Excel-файл для проверки решения
+- `proverka_foto.xlsx` — скрин из Excel-файла для проверки решения
+- `README.md` — отчет по работе
+
+---
+
+## Инструкция по запуску программы
+
+1. Подготовить входной файл с задачей (`input_variant.txt`)
+2. Запустить программу командой: 'python lp_universal_simplex_verbose.py input_variant.txt'
